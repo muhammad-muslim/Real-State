@@ -1,0 +1,126 @@
+*{
+    font-family: 'Lora', sans-serif !important;
+    text-decoration: none !important;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.text-danger{
+    color: #0e065b !important;
+}
+
+.bg-danger{
+    background-color: #0e065b !important;
+}
+
+
+.nav-item a{
+    color: #0e065b !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (min-width:1024px) {
+
+    /* Custom CSS for dropdown on hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .navbarBorders{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+}
+
+
+.carousel-slide img {
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    color:#0e065b !important ;
+    background-color: white;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    width: 50%;
+    height: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .carousel-content {
+        position: absolute;
+    top: 150px;
+    right: 80px;
+    color:#0e065b !important ;
+    background-color: white;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    width: 60%;
+    height: 200px;
+    }
+
+    .carousel-slide img {
+        height: 700px;
+    }
+
+} 
+
+
+.cardC-carousel-container {
+    position: relative;
+     width: 820px;
+  }
+
+  .cardC-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hides scrollbar in Edge and IE */
+    margin-bottom: 10px;
+  }
+
+  .cardC-card {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 200px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .cardC-button-container {
+    display: flex;
+    justify-content: end;
+  }
+
+  .cardC-button {
+    margin: 0 10px;
+    padding: 4px 8px;
+    background-color: #0e065b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+  /* Optional: Add styles for scrollbar */
+  .cardC-carousel::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+  }
+
+
+ 
+
+  
+ 
+

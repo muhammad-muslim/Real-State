@@ -2,7 +2,10 @@
     font-family: 'Lora', sans-serif !important;
     text-decoration: none !important;
     list-style: none;
-    overflow-x: hidden;
+   
+}
+body{
+     overflow-x: hidden;
 }
 
 .text-danger{
